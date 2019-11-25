@@ -1,0 +1,33 @@
+DONEM ICIN HAFTALIK DERS PROGRAMI OLUSTURMA OTOMASYONU
+------------------------------------------------------
+
+-> Bir departman belirlenir.
+
+-> Belirlenen departmanin mevcut dersleri eklenir.
+   (Dersler , ders kodu ve kredileri olacak sekilde eklenirler.)
+   (Her dersin kredisi , onun haftada kac saat isleneceði bilgisini bizlere verir.)
+
+-> Bu bolumde calisan ogretmenler belirlenir , eklenir.
+   (Her hocanin muhakkak hafta ici bir gun bos olmasi gereklidir.)
+   (Her hocanin haftalik min. ders verme kotasi 10 saattir.)
+
+-> Bu bolumun kullanacagi kac tane sinif oldugu bilgisi eklenir.
+   (Bu verilen siniflarin kapasitesi sinif bilgisi ile girilir.)
+   (Bazi dersler zorunlu oldugu icin amfi siniflarinda islenirken)
+   (Secmeli dersler daha kucuk siniflarda islenir)
+
+-> Dersler 09:00 ile 17:00 saatleri arasinda islenecektir.
+
+
+-> Her ogretmenin uzman oldugu alanlar vardir , ve bu ogretmenler uzman oldugu alan derslerini verir.
+   (Istisnai durumlarda -kimsenin uzman olmadigi durumlarda- once ogretmenin)
+   (haftalik ders kotasina bakilir , kotasi dolmamis ogretmenler var ise icerisinden)
+   (ders verme saati en az olan ogretmen o derse atanir.En az olan hoca)
+   (sayisi birden fazla ise onlarin arasinda bir random secim yapilir.)
+   (Aksi durumda , tüm hocalardan biri bu dersi vermek uzere random olarak atanir.)   
+   
+
+
+
+-----> Yeni dusunceler , yeni planlamalar dusunuldugu takdirde mevcut olan <-----
+       algoritamaya , planlamaya eklemeler cikarmalar gerceklesebilir...   	 
